@@ -13,8 +13,8 @@ const multer = Multer({
 const connection = mysql.createConnection({
     host: 'public_ip_sql_instance_Anda',
     user: 'root',
-    database: 'nama_database_Anda',
-    password: 'password_sql_Anda'
+    database: 'sqlmoneytrackerapp',
+    password: 'nn$(0Mm})dFV";)}'
 })
 
 router.get("/dashboard", (req, res) => {
